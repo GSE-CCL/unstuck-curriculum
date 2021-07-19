@@ -17,4 +17,3 @@ The following steps are required on a development host after checking out the re
 1. Install pip requirements ('pip install -r requirements.txt').
 1. Change into app directory. 
 1. Launch gunicorn (gunicorn --bind 0.0.0.0:8080 wsgi:app)
-
