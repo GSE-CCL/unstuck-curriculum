@@ -16,8 +16,6 @@ app = Flask(__name__)
 @app.context_processor
 def add_context():
     """Executed before every route handler to provide a dictionary of common content passed to all templates. """
-
-    user_agent = request.headers.get('User-Agent')
     
     return { 
         "unstuck_modules" : content.unstuck_modules,
