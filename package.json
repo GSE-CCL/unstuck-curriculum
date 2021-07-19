@@ -1,0 +1,13 @@
+{
+  "name": "getting-unstuck",
+  "private": true,
+
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }, 
+
+  "scripts": {
+    "postinstall": "sh node-postinstall.sh"
+  }
+}
+

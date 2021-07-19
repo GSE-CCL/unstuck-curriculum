@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+<section class="bg-white">
+    <div class="container module px-5-md py-4 py-md-5">
+        <div class="row bg-white">
+            <div class="col-lg-12 mx-auto">
+                <h1 class="pb-3">{{ title }}</h1>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <div class="col-lg-5 mx-auto">
+                <p> {{ teaser|safe}}</p>
+                <p style="font-style: italic;">This module is available as Google Slides. You can <span
+                        class="hide-iphone">preview the slides, edit the slides by making a copy, or </span>download the
+                    slides as a PDF.</p>
+                <div class="my-4">
+                    <a class="btn btn-primary me-2 hide-iphone" href="{{preview}}" target="_blank"
+                        role="button">PREVIEW</a>
+                    <a class="btn btn-primary me-2 hide-iphone" href="{{edit}}" target="_blank" role="button">EDIT</a>
+                    <a class="btn btn-primary" href='{{download}}' role="button">DOWNLOAD</a>
+                </div>
+            </div>
+            <div class="col-lg-7">
+
+                <div class="embed-youtube" data-video-id="{{video}}">
+                    <div class="embed-youtube-play"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

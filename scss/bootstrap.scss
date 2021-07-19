@@ -1,0 +1,70 @@
+/* 
+* This module contains overrides for bootstrap sass variables.
+* 
+* Bootstrap itself is included by this file. When compiled, this file produces a 
+* complete, customized Bootstrap css file. 
+*/
+
+/* 
+ * Bootstrap Overrides
+ * 
+ * Some of these values are defined here so that they can be referenced by other 
+ * overrides in this file, rather than to be overridden themselves. 
+ */
+
+$black:    #000;
+$white:    #FFF;
+
+$blue:    #5dc7e4;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #f9d344;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+//Main site colors
+$primary:       $blue;
+$secondary:     $yellow;
+
+$link-color:    $black; 
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1024px,
+  xxl: 1200px
+) !default;
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+
+$headings-font-family: 'Abril Fatface', sans-serif;
+
+$h1-font-size:                $font-size-base * 2 !default;
+
+$h1-font-size:                $font-size-base * 2 !default;
+$h2-font-size:                $font-size-base * 1.5 !default;
+
+$border-radius: 0rem;
+
+$navbar-nav-link-padding-x: 2rem;
+
+$nav-link-font-weight: 600; 
+
+$navbar-light-color: rgba($black, .5);
+
+/* 
+ * Include all of bootstrap (could include specific features only, but this is simpler).
+ */
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* 
+ * Additional customizations.
+ */

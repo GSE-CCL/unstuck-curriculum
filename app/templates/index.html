@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}Getting Unstuck{% endblock %}
+
+{% block content %}
+<section class="bg-white">
+    <div class="container">
+        <div class="row bg-white px-5-md py-4 py-md-5">
+            <div class="col-lg-5 mx-auto my-auto">
+                <h1>What if your students<br>could create anything<br>they imagined with code?</h1>
+                <p>Getting Unstuck is a 10-module intermediate Scratch curriculum to help your students develop greater
+                    creative and conceptual fluency with code. The curriculum reimagines the classroom as a design
+                    studio: a culture of learning in which students explore, create, share, and reflect. Get started
+                    with the curriculum by reading the orientation, then explore the modules.</p>
+                <div class="my-4">
+                    <a class="btn btn-secondary" style="padding-left:1.5em;padding-right:1.5em;"
+                        href="https://docs.google.com/presentation/d/1cLlxFpZPvgQkq9t2bq41HMp_eRX7lHjskSHIPTKuCXo/edit#slide=id.ge4d151e1f7_0_0"
+                        target="_blank" role="button">READ THE ORIENTATION</a>
+                </div>
+            </div>
+            <div class="col-lg-7 my-auto">
+                <div class="embed-youtube" data-video-id="-MIKW9Wcml0">
+                    <div class="embed-youtube-play"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-primary">
+    <div class="container">
+        <div class="row bg-primary px-5-md py-4 py-md-5">
+            <div class="col-lg-7 mb-5 my-auto d-none d-lg-block">
+                <div id="carousel" class="carousel carousel-dark slide me-md-4" data-bs-interval="false"
+                    data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="{{ url_for('static', filename='img/projectprompt.png') }}" class="d-block w-100"
+                                alt="Project Prompt">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='img/read-me.png') }}" class="d-block w-100"
+                                alt="Read Me">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='img/code-comments.png') }}" class="d-block w-100"
+                                alt="Code Comments">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="{{ url_for('static', filename='img/heartandstar.png') }}" class="d-block w-100"
+                                alt="Heart and Star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 mx-auto my-auto">
+                <div>
+                    <h1>Modules</h1>
+                    <p>Each of the 10 modules in Getting Unstuck is focused on a different prompt to create a
+                        student-directed Scratch project using a particular computational concept.​ Explore the modules
+                        below:
+                    </p>
+                    <div class="container-fluid">
+                        <ul class="module-list">
+                            <div class="row">
+                                {% set module_count = unstuck_modules | length %}
+                                {% set module_half_count = module_count //2 %}
+                                {% set module_keys = unstuck_modules.keys() | list %}
+                                {% set module_values = unstuck_modules.values() | list %}
+                                <div class="col">
+                                    {% for i in range(module_half_count) %}
+                                    <li><a
+                                            href="{{ url_for('modules', name=module_keys[i]) }}">{{module_values[i]['title']}}</a>
+                                    </li>
+                                    {% endfor%}
+                                </div>
+                                <div class="col">
+                                    {% for i in range(module_half_count, module_count) %}
+                                    <li><a
+                                            href="{{ url_for('modules', name=module_keys[i]) }}">{{module_values[i]['title']}}</a>
+                                    </li>
+                                    {% endfor%}
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <p>The activities in each module are designed to help students create Scratch projects that are
+                        unique and matter to them, while exploring a particular computer science concept. This work is
+                        supported through the essential design studio practices of exploring, creating, sharing, and
+                        reflecting.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

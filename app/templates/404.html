@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Getting Unstuck - Page Not Found{% endblock %}
+
+{% block content %}
+
+<section class="bg-white">
+    <div class="container">
+        <div class="row bg-white px-5-md py-4 py-md-5">
+            <div class="col-lg-7 mx-auto my-auto">
+                <h1>Something is amiss!</h1>
+                <p>We couldn't find this page. Please accept our humblest apologies.</p>
+            </div>
+            <div class="col-lg-5 px-5-md py-4 my-auto">
+                <img src="{{ url_for('static', filename='img/steven.png')}}" class="img-fluid" alt="Bug">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+
