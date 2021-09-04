@@ -25,6 +25,15 @@
   <title>{% block title %}{% endblock %}</title>
 
   {% endblock %}
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121701097-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-121701097-1');
+  </script>  
 
 </head>
 
@@ -104,15 +113,6 @@
   <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
   <script src="{{ url_for('static', filename='js/embed-youtube.js') }}"></script>
   <script src="{{ url_for('static', filename='js/iphone.js') }}"></script>
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121701097-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-121701097-1');
-  </script>
 
 </body>
 
