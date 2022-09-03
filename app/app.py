@@ -19,6 +19,7 @@ def add_context():
     
     return { 
         "unstuck_modules" : content.unstuck_modules,
+        "unstuck_translations" : content.unstuck_translations
     }
 
 #An extra route with an ".html" suffix is provided for all handlers. This is for backwards compatibility 
@@ -34,6 +35,14 @@ def index():
 def modules(name):
     if name in content.unstuck_modules:
         return render_template('module.html', unstuck_module_name=name, **content.unstuck_modules[name])
+    else:
+        return redirect(url_for('page_not_found'))
+
+@app.route('/translations/<name>.html')
+@app.route('/translations/<name>')
+def translations(name):
+    if name in content.unstuck_translations:
+        return render_template('translation.html', unstuck_translation_name=name, **content.unstuck_translations[name])
     else:
         return redirect(url_for('page_not_found'))
 

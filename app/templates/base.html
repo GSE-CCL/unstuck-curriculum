@@ -73,6 +73,19 @@
                 {%endfor%}
               </ul>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="translations-dropdown" data-bs-toggle="dropdown"
+                aria-expanded="false">TRANSLATIONS</a>
+              <ul class="dropdown-menu" aria-labelledby="translations-dropdown">
+                {%for translation_name, translation_content in unstuck_translations.items() %}
+                <li>
+                  <a class="dropdown-item {{ 'active' if request.path == url_for('translations', name=translation_name) else '' }}"
+                    href="{{ url_for('translations', name=translation_name) }}">{{translation_content['title']}}
+                  </a>
+                </li>
+                {%endfor%}
+              </ul>
+            </li>
             <li class="nav-item">
               <a class="nav-link {{ 'active' if request.path == url_for('faq') else '' }}"
                 href="{{ url_for('faq') }}">FAQ</a>
