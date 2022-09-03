@@ -24,14 +24,14 @@ unstuck_faq = [
 
     ("How much does Getting Unstuck cost?", 
         ("The Getting Unstuck curriculum is free! This curriculum has been released under a "
-        "<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>Creative Commons " 
+        "<a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Creative Commons " 
         "Attribution-ShareAlike 4.0 license</a>, which means that you are free to use, change, and share the "
         "curriculum, as long as you provide appropriate attribution and give others access to any derivative "
         "works. The curriculum is available as Google Slides. You can preview the slides, edit the slides by "
         "making a copy, or download the slides as a PDF.")),
 
     ("Can I translate Getting Unstuck?",
-        ("Yes! Under the <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>Creative Commons Attribution-ShareAlike 4.0 license</a>, "
+        ("Yes! Under the <a href='https://creativecommons.org/licenses/by-sa/4.0/' target='_blank'>Creative Commons Attribution-ShareAlike 4.0 license</a>, "
         "you are free to translate the curriculum, as long as you provide appropriate attribution and give others access to any derivative "
         "works. If you develop a translation of the curriculum and would like to make your work available to "
         "others, please email us. We would be delighted to add your extensions to the Getting Unstuck website, "
