@@ -6,6 +6,16 @@ path (/module/<name>). The value is a dictionary of content items required by th
 """
 
 unstuck_modules = {
+    'orientation' : {
+        "title" : "Orientation", 
+        "prompt" : "Create a project where a user gets a surprise whenever they click on the stage or a sprite.", 
+        "teaser" : "In this module, students explore interactivity through the creation of surprises. Interactivity is the communication between a human and a software program. By creating a surprise, students explore how to cause something to happen whenever the user clicks the stage or a sprite.", 
+        "preview" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/view", 
+        "edit" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/copy", 
+        "download" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/export/pdf", 
+        "video" : "RSEAswH93Uk",
+        "divider": True
+    },    
     'when-clicked' : {
         "title" : "When Clicked", 
         "prompt" : "Create a project where a user gets a surprise whenever they click on the stage or a sprite.", 

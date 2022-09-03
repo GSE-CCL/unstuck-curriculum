@@ -65,11 +65,14 @@
                 aria-expanded="false">MODULES</a>
               <ul class="dropdown-menu" aria-labelledby="modules-dropdown">
                 {%for module_name, module_content in unstuck_modules.items() %}
-                <li>
-                  <a class="dropdown-item {{ 'active' if request.path == url_for('modules', name=module_name) else '' }}"
-                    href="{{ url_for('modules', name=module_name) }}">{{module_content['title']}}
-                  </a>
-                </li>
+                  <li>
+                    <a class="dropdown-item {{ 'active' if request.path == url_for('modules', name=module_name) else '' }}"
+                      href="{{ url_for('modules', name=module_name) }}">{{module_content['title']}}
+                    </a>
+                  </li>
+                  {%if module_content['divider'] %}
+                    <div class="dropdown-divider"></div>
+                  {%endif%}
                 {%endfor%}
               </ul>
             </li>
