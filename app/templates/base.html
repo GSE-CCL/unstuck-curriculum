@@ -58,11 +58,11 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link {{ 'active' if request.path == url_for('index') else '' }}"
-                href="{{ url_for('index') }}">ORIENTATION</a>
+                href="{{ url_for('index') }}">WELCOME</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="modules-dropdown" data-bs-toggle="dropdown"
-                aria-expanded="false">MODULES</a>
+                aria-expanded="false">CURRICULUM</a>
               <ul class="dropdown-menu" aria-labelledby="modules-dropdown">
                 {%for module_name, module_content in unstuck_modules.items() %}
                   <li>
