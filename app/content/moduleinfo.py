@@ -7,13 +7,13 @@ path (/module/<name>). The value is a dictionary of content items required by th
 
 unstuck_modules = {
     'orientation' : {
-        "title" : "Orientation", 
-        "prompt" : "Create a project where a user gets a surprise whenever they click on the stage or a sprite.", 
-        "teaser" : "In this module, students explore interactivity through the creation of surprises. Interactivity is the communication between a human and a software program. By creating a surprise, students explore how to cause something to happen whenever the user clicks the stage or a sprite.", 
+        "title" : "Start Here", 
+        "prompt" : "Computer code is an incredibly powerful medium for self-expression and problem solving, and all young people should have opportunities to develop fluency with code. As with any medium, the more we use it, the greater our fluency with it becomes.", 
+        "teaser" : "In this orientation document, you will learn about Getting Unstuck, an intermediate Scratch curriculum to support design culture in the classroom. You will learn about how the curriculum is organized, what the design studio feels like, how to get started, and who created the curriculum.", 
         "preview" : "https://docs.google.com/presentation/d/1cLlxFpZPvgQkq9t2bq41HMp_eRX7lHjskSHIPTKuCXo/view", 
         "edit" : "https://docs.google.com/presentation/d/1cLlxFpZPvgQkq9t2bq41HMp_eRX7lHjskSHIPTKuCXo/copy", 
         "download" : "https://docs.google.com/presentation/d/1cLlxFpZPvgQkq9t2bq41HMp_eRX7lHjskSHIPTKuCXo/export/pdf", 
-        "video" : "RSEAswH93Uk",
+        "video" : "kRjPDQy7K4E",
         "divider": True
     },    
     'when-clicked' : {
