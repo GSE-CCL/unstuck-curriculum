@@ -18,14 +18,16 @@
         </div>
         {%for module in modules %}
             <div class="row bg-white">
-                <div class="col-lg-5 mx-auto align-self-center">
-                    <div class="text-end">{{module['title']|safe}}</div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3 mx-auto align-self-center text-center">
+                    {{module['title']|safe}}
                 </div>
-                <div class="col-lg-7 mx-auto my-3">
+                <div class="col-lg-5 mx-auto my-3 text-center">
                     <a class="btn btn-primary me-2" href="{{module['preview']}}" target="_blank" role="button">{{localized_preview}}</a>
                     <a class="btn btn-primary me-2" href="{{module['edit']}}" target="_blank" role="button">{{localized_edit}}</a>
                     <a class="btn btn-primary me-2" href="{{module['download']}}" target="_blank" role="button">{{localized_download}}</a>
                 </div>
+                <div class="col-lg-2"></div>
             </div>
         {%endfor%}        
     </div>
