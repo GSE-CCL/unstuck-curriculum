@@ -72,7 +72,7 @@ unstuck_translations = {
     },
     "français" : {
         "title" : "Français", 
-        "credits" : "Voici est un traduction partial, qu'inclus seulement le cahier d'étudiant. Traduit par <a href='https://www.twitter.com/HalougiL' target='_blank'>@HalougiL</a>.",
+        "credits" : "Voici est une traduction partielle, qu'inclus seulement le cahier d'étudiant. Traduit par <a href='https://www.twitter.com/HalougiL' target='_blank'>@HalougiL</a>.",
         "localized_preview" : "APERÇU", 
         "localized_edit" : "ÉDITER", 
         "localized_download" : "TÉLÉCHARGER",         
