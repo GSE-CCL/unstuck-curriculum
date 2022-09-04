@@ -9,7 +9,7 @@ unstuck_translations = {
     "español" : {
         "title" : "Español", 
         "credits" : "Esta es una traducción realizada por Álvaro Molina Ayuso. Contacto: <a href='mailto:molinaayuso@gmail.com' target='_blank'>molinaayuso@gmail.com</a>.",
-        "localized_preview" : "AVANCE", 
+        "localized_preview" : "PREESTRENAR", 
         "localized_edit" : "EDITAR", 
         "localized_download" : "DESCARGAR", 
         "modules" : [{
