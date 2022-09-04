@@ -8,15 +8,22 @@
     <div class="container translation px-5-md py-4 py-md-5">
         <div class="row bg-white">
             <div class="col-lg-12 mx-auto">
-                <h1 class="pb-3">{{ title }}</h1>
+                <h1 class="pb-3 text-center">{{ title }}</h1>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <div class="col-lg-12 mx-auto">
+                {{ credits|safe }}
             </div>
         </div>
         {%for module in modules %}
             <div class="row bg-white">
+                <div class="col-lg-1">
+                </div>
                 <div class="col-lg-3 mx-auto align-self-center">
                     {{module['title']|safe}}
                 </div>
-                <div class="col-lg-9 mx-auto my-3">
+                <div class="col-lg-8 mx-auto my-3">
                     <a class="btn btn-primary me-2 hide-iphone" href="{{module['preview']}}" target="_blank" role="button">{{localized_preview}}</a>
                     <a class="btn btn-primary me-2 hide-iphone" href="{{module['edit']}}" target="_blank" role="button">{{localized_edit}}</a>
                     <a class="btn btn-primary me-2 hide-iphone" href="{{module['download']}}" target="_blank" role="button">{{localized_download}}</a>
