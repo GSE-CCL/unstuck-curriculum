@@ -8,7 +8,7 @@ path (/translations/<name>). The value is a dictionary of content items required
 unstuck_translations = {
     "español" : {
         "title" : "Español", 
-        "credits" : "Esta es una traducción realizada por Álvaro Molina Ayuso. Contacto: <a href='mailto:molinaayuso@gmail.com' target='_blank'>molinaayuso@gmail.com</a>.",
+        "credits" : "Esta es una traducción realizada por Álvaro Molina Ayuso. Contacto: <a href='https://twitter.com/molinaayuso' target='_blank'>@molinaayuso</a>, <a href='mailto:molinaayuso@gmail.com' target='_blank'>molinaayuso@gmail.com</a>.",
         "localized_preview" : "PREESTRENAR", 
         "localized_edit" : "EDITAR", 
         "localized_download" : "DESCARGAR", 
