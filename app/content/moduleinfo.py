@@ -23,7 +23,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/view", 
         "edit" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/copy", 
         "download" : "https://docs.google.com/presentation/d/1ftWO-EqdDS3Mz7xFvoy8AD50qSjdfr8vgUgW0q9hQI8/export/pdf", 
-        "video" : "RSEAswH93Uk"
+        "video" : "hfHUB9hoaEU" # ASL version
+        # "video" : "RSEAswH93Uk"
     },
     'parallelism' : {
         "title" : "Parallelism", 
@@ -32,7 +33,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/15mrbsBcjXn7CT5r79hBbTuZIE9VuohO1ttuAP0SR7nw/view", 
         "edit" : "https://docs.google.com/presentation/d/15mrbsBcjXn7CT5r79hBbTuZIE9VuohO1ttuAP0SR7nw/copy", 
         "download" : "https://docs.google.com/presentation/d/15mrbsBcjXn7CT5r79hBbTuZIE9VuohO1ttuAP0SR7nw/export/pdf", 
-        "video" : "mapfs94BLlY"
+        "video" : "pmGUltDN2ZE" # ASL version
+        # "video" : "mapfs94BLlY"
     },
     'key-press' : {
         "title" : "Key Press", 
@@ -41,7 +43,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1-LOo7W7twm3aSqNsh5uiMy6VvIiKy-6G5ExVGwWxMGI/view", 
         "edit" : "https://docs.google.com/presentation/d/1-LOo7W7twm3aSqNsh5uiMy6VvIiKy-6G5ExVGwWxMGI/copy", 
         "download" : "https://docs.google.com/presentation/d/1-LOo7W7twm3aSqNsh5uiMy6VvIiKy-6G5ExVGwWxMGI/export/pdf", 
-        "video" : "wEWw6_bdKac"
+        "video" : "0CBRViEqjBA" # ASL version
+        # "video" : "wEWw6_bdKac"
     },
     'loops' : {
         "title" : "Loops", 
@@ -50,7 +53,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1ApfO8Oizx35fhuVLaFWUvydSMQZqaBZzmaOwAmIRWDs/view", 
         "edit" : "https://docs.google.com/presentation/d/1ApfO8Oizx35fhuVLaFWUvydSMQZqaBZzmaOwAmIRWDs/copy", 
         "download" : "https://docs.google.com/presentation/d/1ApfO8Oizx35fhuVLaFWUvydSMQZqaBZzmaOwAmIRWDs/export/pdf", 
-        "video" : "5TMdoqSVUG8"
+        "video" : "S5OXdhE3Q94" # ASL version
+        # "video" : "5TMdoqSVUG8"
     },
     'broadcast' : {
         "title" : "Broadcast", 
@@ -59,7 +63,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1jhm8JB4cuj1mtzd5sdqNv2W6n8K3tTXw615EVOZfFCQ/view", 
         "edit" : "https://docs.google.com/presentation/d/1jhm8JB4cuj1mtzd5sdqNv2W6n8K3tTXw615EVOZfFCQ/copy", 
         "download" : "https://docs.google.com/presentation/d/1jhm8JB4cuj1mtzd5sdqNv2W6n8K3tTXw615EVOZfFCQ/export/pdf", 
-        "video" : "c6SLXRJLcSo"
+        "video" : "lR2VhWs9KFU" # ASL version
+        # "video" : "c6SLXRJLcSo"
     },
     'color-sensing' : {
         "title" : "Color Sensing", 
@@ -68,7 +73,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/19FymuIKGIMGxqK0JpOuCcwA0EjnZJmJS4ZWcNKk3zYk/view", 
         "edit" : "https://docs.google.com/presentation/d/19FymuIKGIMGxqK0JpOuCcwA0EjnZJmJS4ZWcNKk3zYk/copy", 
         "download" : "https://docs.google.com/presentation/d/19FymuIKGIMGxqK0JpOuCcwA0EjnZJmJS4ZWcNKk3zYk/export/pdf", 
-        "video" : "BxchWFa2AG8"
+        "video" : "Kw7nt3AThbk" # ASL version
+        # "video" : "BxchWFa2AG8"
     },
     'random' : {
         "title" : "Random", 
@@ -77,7 +83,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1KtLXNjK1zpsCWzfUCUHjrt2KPFQxxACH6GX7s6ilExk/view", 
         "edit" : "https://docs.google.com/presentation/d/1KtLXNjK1zpsCWzfUCUHjrt2KPFQxxACH6GX7s6ilExk/copy", 
         "download" : "https://docs.google.com/presentation/d/1KtLXNjK1zpsCWzfUCUHjrt2KPFQxxACH6GX7s6ilExk/export/pdf", 
-        "video" : "eDW3yUO8CzU"
+        "video" : "PA9WPWFfeEc" # ASL version
+        # "video" : "eDW3yUO8CzU"
     },
     'ask-and-answer' : {
         "title" : "Ask and Answer", 
@@ -86,7 +93,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1WCfpeCfF6WxzGKdWLnq-2Luy7Vde51S1dwxL3qsxUzM/view", 
         "edit" : "https://docs.google.com/presentation/d/1WCfpeCfF6WxzGKdWLnq-2Luy7Vde51S1dwxL3qsxUzM/copy", 
         "download" : "https://docs.google.com/presentation/d/1WCfpeCfF6WxzGKdWLnq-2Luy7Vde51S1dwxL3qsxUzM/export/pdf", 
-        "video" : "wUf5ZwCVwEg"
+        "video" : "WV-VOI_GblI" # ASL version
+        # "video" : "wUf5ZwCVwEg"
     },
     'variables' : {
         "title" : "Variables", 
@@ -95,7 +103,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1Y2Od7-riG7_JOk9sCniRW0w1LIqTF9TceCDgoGklyFs/view", 
         "edit" : "https://docs.google.com/presentation/d/1Y2Od7-riG7_JOk9sCniRW0w1LIqTF9TceCDgoGklyFs/copy", 
         "download" : "https://docs.google.com/presentation/d/1Y2Od7-riG7_JOk9sCniRW0w1LIqTF9TceCDgoGklyFs/export/pdf", 
-        "video" : "fLxKkeHcswE"
+        "video" : "TKS38C4jq80" # ASL version
+        # "video" : "fLxKkeHcswE"
     },
     'lists' : {
         "title" : "Lists", 
@@ -104,7 +113,8 @@ unstuck_modules = {
         "preview" : "https://docs.google.com/presentation/d/1an6DNoH-5PJbLKHCUGpOzmD4QYgP5rpZ8z_kKaxVtn0/view", 
         "edit" : "https://docs.google.com/presentation/d/1an6DNoH-5PJbLKHCUGpOzmD4QYgP5rpZ8z_kKaxVtn0/copy", 
         "download" : "https://docs.google.com/presentation/d/1an6DNoH-5PJbLKHCUGpOzmD4QYgP5rpZ8z_kKaxVtn0/export/pdf", 
-        "video" : "MC8ApAOHKCQ"
+        "video" : "twRzhrbosxU" # ASL version
+        # "video" : "MC8ApAOHKCQ"
     }
 
 }
