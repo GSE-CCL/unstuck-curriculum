@@ -59,6 +59,13 @@ unstuck_faq = [
         "Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors "
         "and do not necessarily reflect the views of the National Science Foundation.")),
 
+    ("Who created the ASL-interpreted Getting Unstuck videos?",
+        ("The ASL-interpreted Getting Unstuck videos were developed by "
+         "AnnMarie Thomas and The Playful Learning Lab at the University of St. Thomas, "
+         "with Britta Schwall as interpreter. "
+         "Funding for the videos was provided by Google and the Scratch Foundation."
+         )),
+
     ("What if I have other questions about Getting Unstuck?",
         ("Connect with our team and with other educators on "
         "<a href='https://twitter.com/HGSE_CCL' target='_blank'>Twitter at @HGSE_CCL</a>, in the "
